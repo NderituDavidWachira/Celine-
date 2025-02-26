@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Column Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 3px;
+            background-color: #333;
+            color: white;
+            margin: 0;
+        }
+        .header .logo {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+        }
+
+        img{
+            width: 100%;
+            height: 18vh;
+            margin: 0;
+            padding: 0;
+            
+        }
+        .header .title {
+            font-size: 24px;
+            font-weight: bold;
+            left: 50%;
+            position: absolute;
+        }
+        .header nav {
+            display: flex;
+            gap: 15px;
+        }
+        .header nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 0px;
+        }
+        .column {
+            width: 20%;
+            padding: 200px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        .button-container a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><img src="day.jpg"alt="logo">
+        </div>
+        <div class="title">Centered Header</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="column">Column 1</div>
+        <div class="column">Column 2</div>
+        <div class="column">Column 3</div>
+    </div>
+    <div class="button-container">
+        <a href="https://www.st paul university.com" target="_blank">Click Me</a>
+    </div>
+</body>
+</html>
