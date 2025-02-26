@@ -1,0 +1,180 @@
+.h {
+	background-color: whitesmoke;
+	padding: 20px;
+	box-shadow: 0, 0, 0, 0.1;
+	display: flex;
+	align-items: center;
+}
+nav{
+	display: flex;
+	margin-left: auto;
+}
+ul li{
+	list-style: none;
+	float: left;
+	
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 10px 10px;
+}
+ul li a:hover{
+	color: blue;
+}
+	
+	
+
+.logo{
+	font-size:20px;
+	font-weight: 900;
+	color: black;
+	font-family: cooper;
+
+}
+body{
+	font-family: "poppin", sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: whitesmoke;
+}
+.container{
+	display: flex;
+	width: 100%;
+	height: 75vh;
+	background-color: lightblue;
+	text-align: left;
+	align-items: center;
+}
+.text{
+	width: 75%;
+	padding:10px;
+}
+.text h{
+	font-size: 2.5rem;
+    margin-bottom: 15px;
+        
+}
+.text p{
+	font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+ul li a{
+	list-style: none;
+}
+.web-buttons button {
+        padding: 10px 20px;
+        margin-right: 10px;
+        border: none;
+        cursor: pointer;
+        border-radius: 32px;
+        font-size: 1rem;
+}
+.contact {
+    background-color:blue;
+    color: white;
+}
+.order {
+    background-color: red;
+    color: white;
+}
+.cart{
+	border-radius: 15px;
+	border: none;
+	padding: 8px;
+	color: white;
+	background-color: lightseagreen;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 14px;
+}
+.cart:hover{
+	opacity: 0.9;
+}
+.learn{
+	padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 1rem;
+	background-color: white;	
+	color: black;
+	text-align: center;
+}
+.link{
+	text-decoration: none;
+}
+.image-container {
+        width: 60%;
+        height: 100%;
+        background: url('celine.jpg') no-repeat center center/cover;
+        position: relative;
+        border-left: 10px solid transparent;
+        border-top-left-radius: 50% 100%;
+        border-bottom-left-radius: 50% 100%;
+}
+.products{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: lightcyan;
+	border-radius: 10px;
+	gap: 5px;
+	
+}
+.offer{
+	
+	text-align: center;
+	align-items: center;
+	font-size: 15px;
+	color: red;
+
+}
+.container1{
+	display: flex;
+	width: 100%;
+	height: 15vh;
+	background-color:lightgrey;
+	align-items: center;
+}
+.card{
+
+	box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 250px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+	border-color: lightgrey;
+	margin-bottom: 20px;
+	border-radius: 15px;
+	height: 250px;
+	padding: 23px;
+	height: 27vh;
+}
+.price{
+	color:green;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+.info{
+	text-align: center;
+ 	justify-content: center;
+ 	padding: 50px 400px;
+}
+ h2{
+
+ 	text-align: center;
+ }
+ .main{
+
+ }
+ .footer{
+	text-align: center;
+	background-color: lightgrey;
+	padding: 5px;
+	position: relative;
+	width: 100%;
+	height: 10vh;
+}
